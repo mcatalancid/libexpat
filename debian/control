@@ -1,0 +1,23 @@
+Source: libexpat
+Priority: extra
+Maintainer: root <root@miguelcatalan.upc.es>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.3
+Section: libs
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/libexpat.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/libexpat.git;a=summary
+
+Package: libexpat-dev
+Section: libdevel
+Architecture: any
+Depends: libexpatBROKEN (= ${binary:Version})
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: libexpatBROKEN
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

@@ -1,0 +1,5 @@
+libexpat (2.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <root@miguelcatalan.upc.es>  Fri, 27 Jun 2014 17:04:20 +0200
